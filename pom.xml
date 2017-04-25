@@ -4,13 +4,13 @@
 
     <groupId>release-test</groupId>
     <artifactId>release-test</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.1</version>
 
 
     <scm>
         <url>https://github.com/salihkardan/release-test.git</url>
         <connection>scm:git:https://github.com/salihkardan/release-test.git</connection>
-        <tag>HEAD</tag>
+        <tag>v0.3-SNAPSHOT</tag>
     </scm>
 
     <build>
