@@ -5,11 +5,11 @@
     <parent>
         <groupId>release-test</groupId>
         <artifactId>release-test</artifactId>
-        <version>0.9</version>
+        <version>0.10-SNAPSHOT</version>
     </parent>
 
     <artifactId>test2</artifactId>
-    <version>0.9</version>
+    <version>0.10-SNAPSHOT</version>
 
     
 </project>
