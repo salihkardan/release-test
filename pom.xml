@@ -4,7 +4,7 @@
 
     <groupId>release-test</groupId>
     <artifactId>release-test</artifactId>
-    <version>0.13-SNAPSHOT</version>
+    <version>0.13</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -15,7 +15,7 @@
     <scm>
         <connection>scm:git:git@github.com:salihkardan/release-test.git</connection>
         <url>https://github.com/salihkardan/release-test.git</url>
-        <tag>HEAD</tag>
+        <tag>v0.13-SNAPSHOT</tag>
     </scm>
 
 
