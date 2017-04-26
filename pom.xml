@@ -39,6 +39,11 @@
                         <releaseGoals>
                             <releaseGoal>deploy</releaseGoal>
                         </releaseGoals>
+
+                        <configuration>
+                            <serverId>my-server</serverId>
+                        </configuration>
+
                     </configuration>
                 </plugin>
 
