@@ -5,7 +5,7 @@
     <groupId>release-test</groupId>
     <artifactId>release-test</artifactId>
     <version>0.8-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
 
     <modules>
         <module>test1</module>
