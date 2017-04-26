@@ -4,13 +4,13 @@
 
     <groupId>release-test</groupId>
     <artifactId>release-test</artifactId>
-    <version>0.7-SNAPSHOT</version>
+    <version>0.7</version>
 
 
     <scm>
         <url>https://github.com/salihkardan/release-test.git</url>
         <connection>scm:git:https://github.com/salihkardan/release-test.git</connection>
-        <tag>HEAD</tag>
+        <tag>v0.7-SNAPSHOT</tag>
     </scm>
 
     <distributionManagement>
@@ -29,27 +29,24 @@
                     <artifactId>maven-release-plugin</artifactId>
                     <version>2.5.3</version>
 
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.apache.maven.scm</groupId>
-                            <artifactId>maven-scm-provider-gitexe</artifactId>
-                            <version>1.9.2</version>
-                        </dependency>
-                    </dependencies>
+                    <!--<dependencies>-->
+                        <!--<dependency>-->
+                            <!--<groupId>org.apache.maven.scm</groupId>-->
+                            <!--<artifactId>maven-scm-provider-gitexe</artifactId>-->
+                            <!--<version>1.9.2</version>-->
+                        <!--</dependency>-->
+                    <!--</dependencies>-->
 
                     <configuration>
-
                         <tag>v${project.version}</tag>
                         <tagNameFormat>v@{project.version}</tagNameFormat>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <!-- releaseProfiles configuration will actually force a Maven profile
-                            – the `releases` profile – to become active during the Release process. -->
                         <releaseProfiles>releases</releaseProfiles>
-
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
                     </configuration>
+
                 </plugin>
             </plugins>
         </pluginManagement>
