@@ -13,8 +13,8 @@
     </modules>
 
     <scm>
-        <url>https://github.com/salihkardan/release-test.git</url>
-        <connection>scm:git:https://github.com/salihkardan/release-test.git</connection>
+        <connection>scm:git:git@github.com:salihkardan/release-test.git</connection>
+        <url>git@github.com:salihkardan/release-test.git</url>
         <tag>HEAD</tag>
     </scm>
 
