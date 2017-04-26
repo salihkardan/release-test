@@ -42,8 +42,6 @@
 
                         <configuration>
                             <serverId>my-server</serverId>
-                            <privateKey>/Users/skardan/.ssh/id_rsa</privateKey>
-                            <passphrase>precious</passphrase> <!-- This is optional -->
                         </configuration>
 
                     </configuration>
